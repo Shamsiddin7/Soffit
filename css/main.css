@@ -1,0 +1,201 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+:root {
+    --white: #FFF;
+    --black: #000;
+    --Manrope: 'Manrope';
+    --btn-color: #0040DD;
+    --bg-color: #1C1C1E;
+}
+
+body {
+    font-family: var(--Manrope);
+    background: var(--bg-color);
+}
+
+.all-btn {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: var(--btn-color);
+    border-radius: 50px;
+}
+
+.title {
+    color: var(--white);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+
+
+.header-hero {
+    padding-top: 65px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 106px;
+    height: 43px;
+}
+
+.lists {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    column-gap: 35px;
+    padding-right: 50px;
+}
+
+.header-link {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    opacity: 0.3;
+}
+
+.second-list {
+    display: flex;
+    column-gap: 10px;
+    border-radius: 75px;
+    border: 1px solid #FFF;
+    opacity: 0.6;
+    padding: 6px 10px;
+}
+
+.second-list-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.hero {
+    padding-top: 85px;
+}
+
+.hero-btns {
+    position: absolute;
+    top: 186px;
+    z-index: 1;
+}
+
+.hero-btn {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.hero-btn:nth-child(2) {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.hero-img {
+    width: 100%;
+    position: relative;
+}
+
+.hero-info {
+    padding-top: 50px;
+}
+
+.hero-desc {
+    max-width: 1021px;
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+
+.hero-third-btn {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-second-btns {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 80px;
+    border: 1px solid #FFF;
+}
+
+.Services {
+    padding-top: 110px;
+}
+
+.services-cards {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.services-card {
+    border: 1px solid #FFF;
+}
+
+.serviceses-card-title {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 193px;
+    padding-bottom: 132px;
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.services-card-desc {
+    padding-left: 40px;
+    padding-bottom: 141px;
+    max-width: 305px;
+    width: 100%;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.services-card-btn {
+    margin-left: 40px;
+}
